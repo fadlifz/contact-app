@@ -45,3 +45,11 @@ CREATE TABLE contact_app_restful_api.addresses (
 	FOREIGN KEY fk_contacts_addresses (contact_id) REFERENCES contact_app_restful_api.contacts(id)
 )
 ENGINE=InnoDB;
+
+DESC addresses;
+
+DELETE FROM addresses;
+
+DELETE from contacts;
+
+DELETE from users;
